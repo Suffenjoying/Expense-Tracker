@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">Expense Tracker</header>
+    <div class="container">
+        <div class="navbar">
+            <form class="form">
+                <label class="label-date">Date:
+                    <input type="date" id="date" name="date">
+                </label>
+                <label class="where">Where:
+                    <input type="where" id="where" name="where">
+                </label>
+                <label class="what">What:
+                    <input type="text" id="what" name="what">
+                </label>
+                <label class="price">Price:
+                    <input type="text" id="price" name="price">
+                </label>
+                <label class="submit">
+                <input type="submit" id="submit" name="submit">
+                </label>
+
+
+            </form>
+        </div>
+
+        <div class="mainbar">
+            <p class="bought">Things You've Bought</p>
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>where</th>
+                        <th>What</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+                
+            </table>
+        </div>
+
+    </div>
+    <footer>
+        <h2>Be Frugal!</h2>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

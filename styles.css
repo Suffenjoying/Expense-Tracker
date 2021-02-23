@@ -1,0 +1,64 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.header {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+}
+
+/* input */
+
+.navbar {
+    margin: 50px 0  ;
+    font-weight: bold;
+    font-size: large;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.label-date, .where, .what, .price, .submit {
+    padding-left: 20px;
+}
+
+/* things youhave bought */
+
+.bought {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: beige;
+}
+
+.tbody {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+}
+
+.table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* bottombar */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+}
